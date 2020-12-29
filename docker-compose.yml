@@ -9,6 +9,6 @@ services:
     environment:
       - EXTRA_ARG=nogui
     volumes:
-      - ./mod:/mc/mod
+      - ./mod:/mc/mods
       - ./world:/mc/world
 
